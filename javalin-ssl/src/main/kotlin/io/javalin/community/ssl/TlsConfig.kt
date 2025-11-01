@@ -1,4 +1,5 @@
 package io.javalin.community.ssl
+private const val TLS_VERSION = "TLSv1.3"
 
 /**
  * Data class for the SSL configuration.
@@ -32,7 +33,7 @@ class TlsConfig(
                 "TLS_AES_128_GCM_SHA256",
                 "TLS_AES_256_GCM_SHA384",
                 "TLS_CHACHA20_POLY1305_SHA256"),
-            arrayOf("TLSv1.3")
+            arrayOf(TLS_VERSION)
         )
         @Deprecated("Use TlsConfig.MODERN instead", ReplaceWith("TlsConfig.MODERN"))
         fun getMODERN(): TlsConfig = MODERN
