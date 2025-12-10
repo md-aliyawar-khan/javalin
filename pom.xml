@@ -90,7 +90,7 @@
         <jetty.version>12.1.0</jetty.version>
         <jetty.jakarta-api>5.0.2</jetty.jakarta-api>
         <jackson.version>2.20.0</jackson.version>
-        <jackson.databind.version>2.20.0</jackson.databind.version>
+        <jackson.databind.version>2.20.1</jackson.databind.version>
         <brotli4j.version>1.20.0</brotli4j.version>
         <zstd.jni.version>1.5.7-4</zstd.jni.version>
         <logback.version>1.5.18</logback.version>
@@ -457,7 +457,7 @@
                         Similar JUnit issue: https://github.com/junit-team/junit5/issues/1377
                         -->
                         <excludes>
-                            <exclude />
+                            <exclude/>
                         </excludes>
                         <useModulePath>false</useModulePath>
                     </configuration>
